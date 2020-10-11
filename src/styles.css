@@ -1,0 +1,86 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+
+  .item.active,
+  .item:hover {
+    background-color: wheat;
+    color: #ffffff;
+  }
+  
+  .item:hover {
+    cursor: pointer;
+  }
+  
+  .searchBar {
+    width: 500px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    margin: 0 auto;
+  }
+  
+  .ipSearch {
+    width: 100%;
+    height: auto;
+  }
+  
+  .globalSearch {
+    font-size: 15px;
+    border: 1px solid #e5e5e5;
+    padding: 10px 12px;
+    width: 95%;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+  }
+  
+  .suggestedName {
+    height: 100px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    border: 1px solid #e5e5e5;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+  }
+  
+  .emptyList {
+    font-size: 12px;
+    height: 100px;
+    border: 1px solid #e5e5e5;
+    padding: 1rem 5rem;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+  }
+  
+  .searchDetails {
+    width: 100%;
+    border-bottom: 1px solid #e5e5e5;
+  }
+  
+  .searchDetails:hover {
+    background-color: wheat;
+    color: #ffffff;
+  }
+  
+  .searchId {
+    text-align: left;
+    padding: 10px 0 0;
+  }
+  
+  .searchData {
+    text-align: left;
+    padding: 5px 0 0;
+    display: flex;
+    width: 100%;
+  }
+  
+  .empty {
+    text-align: center;
+    margin: 5rem auto;
+    font-size: 20px;
+    color: #928c8c;
+    font-weight: bold;
+  }
+  
